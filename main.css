@@ -1,22 +1,15 @@
-body {
- margin: auto;
-}
-
-
-
-
-
 /*
+
 header{
-    background-image: url("assets/books.png");
-    height: 10%;
+    background-image: url(https://imageio.forbes.com/specials-images/dam/imageserve/1092571024/0x0.jpg?format=jpg&width=1200);
     opacity: 0.8;
     border-top: solid;
     border-width: 30px;
     border-color: #103f22;
-
 }
-header div h1, header div h2{
+
+
+header div h1{
     text-align: center;
     color: aliceblue;
     text-shadow: 2px 4px #252525;
@@ -24,32 +17,25 @@ header div h1, header div h2{
 }
 
 
-
-header div h2{
-    color: aliceblue;
-    font-style: italic;
-
-}
-
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:flex-end;
 
 }
 
-.list ul{
+#list-items ul{
     margin: 10px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /* border-top: solid;
+    border-top: solid;
     border-width:thin medium thick 10px; 
 }
 
-.list-li{
+#list-items{
     list-style: none;
     width:200px;
     box-shadow: 8px 10px #c9c8c8;
@@ -57,10 +43,10 @@ main {
     margin:10px;
  
 }
-.list-li img{
+#list-items img{
     width:190px;
 }
-.list-li button{
+#list-items button{
     width:190px;
     margin: 15px 5px 15px 5px;
     border: none;
@@ -71,13 +57,18 @@ main {
     font-weight: bold;
 }
 
-#form-wrapper{
+
+#create-task-form{
     border-top: solid;
     border-bottom: solid;
     border-width:thin;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+#to-do {
+    text-align: center;
 }
 
 label{
@@ -109,4 +100,3 @@ footer{
 
     text-align: center;
 }
-*/
