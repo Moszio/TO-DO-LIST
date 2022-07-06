@@ -5,25 +5,26 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="./main.css">
-<script src="test/data.js"></script>
-<script defer src="test/index.js"></script>
+<script src="./test/data.js"></script>
+<script defer src="./test/index.js"></script>
  <title>To-Do-List</title>
 </head>
 <body>
   <header>
-    <div>
+    <div id="header-title2">
       <h1 id="header-title"></h1>
+
     </div>
   </header>
 <main>
 
   <form id="create-task-form" action="" method="POST">
     
-      <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <label for="Name">Name:</label>
+      <input type="text" id="new-task-description" name="Title" placeholder="description">
 
-      <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <label for="Note">Note:</label>
+      <input type="text" id="additional-task-description" name="Note" placeholder="description">
 
       <input type="submit" value="Create New Task">
   </form>
